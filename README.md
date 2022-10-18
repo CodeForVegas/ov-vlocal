@@ -19,6 +19,8 @@
 
 # vLocal Overview
 
+This Overview repository is a specification and documentation component of the vLocal Project. Please do not add code or other resources to this repository.
+
 The goal of the vLocal Project is to provide a privacy-aware digital identity platform which may be used for a variety of applications in the virtual and real worlds by Locals.
 
 The populace should be able to use various services and perhaps conduct various types of commerce and communications, using a virtual identity scheme that they can trust, and which is useful in a uniform way (thereby being more easily understood, and hopefully then, more trustworthy again). By developing and deploying a city-scale identity platform that is open for use for a variety of applications, but which may be inspected by its users, we endeavor to build a culture of secure trust and privacy control placed in the hands of the users of their identity and the services attached to it.
