@@ -32,34 +32,14 @@ Unless otherwise and specifically indicated with replacement files in this repos
 * [Code of Conduct - Code for Vegas Foundation](https://github.com/CodeForVegas/.github/blob/main/CODE_OF_CONDUCT.md)
 * [Contributing to this Project - Code for Vegas Foundation](https://github.com/CodeForVegas/.github/blob/main/CONTRIBUTING.md)
 
-## Services Summary
+## General Focus Areas
 
-There are old and new ways of providing and managing digital online identity, for authentication, authorization, and data capture as examples. Because the vast majority of casual users of services that might require or benefit from a digital identity, are not well-versed in the old and new ways and how they function, part of the mission of the vLocal platform should be to make trusted and reliable use of digital identity trustworthy and transparent.
+This is a large project with multiple components. There are existing tools, protocols, and data formats already in use based on open standards and proprietary applications, the aim is to augment and, eventually, replace these proprietary applications with options developed locally.
 
-## Legacy Support
+## Specification Documents
 
-The internet is built on a variety of tried-and-true legacy practices and protocols. Few are perfect, but many are still in use so many years later. In order to provide a gentle introduction to securely-signed emails and encrypted messages, this platform should enable support for OpenPGP keys and key management, and possibly support for S/MIME and other secure email/data signing and encrypting platforms.
+The specification(s) for the various components and goals of this project are located in the [Doc](doc/README.md) directory. Note that there should be localized versions of the specification documents as needed in this subdirectory.
 
-## Modern Methods
+## Project Backlog
 
-Use of blockchain or similar shared ledger schemes is a good fit for this platform. Integration with legacy schemes will be a small challenge but ultimately the ability to onboard users into a secure, privacy-aware digital identity platform that we may then use across multiple services (developed by Code for Vegas Foundation volunteers or others) for a variety of use cases.
-
-## Services
-
-### OpenPGP Keyserver
-
-As a part of a gentle introduction, if that is even possible in this area, use of and support for PGP/GPG keys for message signing is a reasonable first step. On the client side, a signed email message is a normal email message with a signature attachment, the message can be read without any additional knowledge of email signatures. Building on that notion with a vLocal keyserver for key sharing, and some education about key management, will make use of the old ways, which are decades credible, without concern about headlines and rugpulls and whatnot.
-
-### X.509 Certificate Server
-
-This is by no means a near-term goal, but at some point integration with S/MIME certificate issuance and associated services, to enable secure messsaging across a variety of users and clients, would help to complete the picture of old ways integration. S/MIME if used, is typically found in corporate or government agencies, and is not so often used between indiduals. However, the ability to inform users about how S/MIME works, how the certificates work, and how they can verify messages received are examples we might include in an onboarding and general user education.
-
-### Blockchain ID
-
-TBD
-
-## References
-
-<https://www.openpgp.org/>
-
-<https://en.wikipedia.org/wiki/S/MIME>
+As this project adds component repositories, specific GitHub issues may be opened against individual repos for relevant bugs, missing features, and so on. Prior to the relevant repository existing, an issue backlog may be created against this overview repository. When an appropriate component repository has been created, an issue may be created against the repository with a reference to the issue opened against this overview repository (Double-linking is encouraged).
