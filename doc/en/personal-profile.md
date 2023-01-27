@@ -44,9 +44,11 @@ There are at least four options for this public HTML page view:
 1. A public identity with at least one public credential will appear together at a known URL, suitable for sharing or similar.
 2. A public identity with zero public credentials will not show any credentials but will be shareable.
 3. A private identity will appear at a valid URL with relevant identity validity information (at least HTTP response codes, eg 200 or 404)
-4. A non-existent or invalid identity will appear at a previously-valid URL, or an invalid URL, and will return an appopriate HTTP response code (eg 404)
+4. A non-existent or invalid identity will appear at a previously-valid URL, or an invalid URL, and will return an appropriate HTTP response code (eg 404)
 
 Note that private identities should not have any information associated with them that indicate a user name, location, or other PII.
+
+There is an example website at [OrcID](https://orcid.org) that provides an interesting, completely utilitarian profile service that is reminiscent of the old LinkedIn, enabling a public URL that associates privacy-selectable profile elements to enable identity sharing, in this case for research publication references and attribution, and github enables orcid references in their [GitHub CITATIONS File](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files), and just about anything else one might think of where a link to a personal biography might come in handy.
 
 ### Hierarchy
 
@@ -57,6 +59,10 @@ A private child identity of a public parent will be provably owned by the same p
 ## External Reference Materials
 
 [Applied Cryptography Book](https://www.schneier.com/books/applied-cryptography/)
+
+[OrcID Website](https://orcid.org)
+
+[GitHub CITATIONS File Documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
 
 ## User Stories
 
